@@ -1,7 +1,6 @@
 body{
     color: #fff;
 }
-
 .header-box{
     padding-top: 20px;
     background-color: #f00;
@@ -29,13 +28,11 @@ body{
 .navigation-a:hover{
     color: #000; 
 }
-
 .main-box{
     background-color: #080;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .post-header{
     margin-top: 0;
     font-size: 30px;
@@ -44,10 +41,8 @@ body{
 .post {
     background-color: #00f;
     padding: 10px;
-    margin: 10px;
-    
+    margin: 10px;   
 }
-
 .site-footer{
     background-color: purple;
     text-align: center;
