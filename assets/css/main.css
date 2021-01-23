@@ -3,3 +3,34 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.page{
+    
+}
+
+.page__header{
+    padding-top: 24px;
+    background-color: #f8f9fa;
+    height: 200px;
+}
+
+.page__content{
+
+}
+
+.page__box{
+    max-width: 1110px;
+    margin: auto;
+}
+.page__footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    height: 130px;
+    text-align:center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ACB5BD;
+    background-color: #F9FAFC;
+}

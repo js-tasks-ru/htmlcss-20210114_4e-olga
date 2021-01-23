@@ -2,10 +2,38 @@
 <!-- Страница с кнопкой -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./button.css">
     </head>
-    <body>
+    <body class="page">
+        <div class="content">
+            <!--Title-->
+            <div class="content__title-box">
+                <h1 class="content__title">Buttons</h1>
+            </div>
+            <!--Buttons-->
+            <div class="content__buttons-box">
+                <div class="row">
+                    <div class = "row__title">DEFAULT</div>
+                    <button class="button primary" type="test">Primary</button>
+                    <button class="button secondary" type="submit">Secondary</button>
+                    <button class="button alternate" type="submit">Alternate</button>
+                </div>
+                <div class="row">
+                    <div class = "row__title">HOVER</div>
+                    <button class="button primary primary_hover" type="test">Primary</button>
+                    <button class="button secondary secondary_hover" type="submit">Secondary</button>
+                    <button class="button alternate alternate_hover" type="submit">Alternate</button>
+                </div>
+                <div class="row">
+                    <div class = "row__title">DISABLED</div>
+                    <button class="button primary disabled" type="test">Primary</button>
+                    <button class="button secondary disabled" type="submit">Secondary</button>
+                    <button class="button alternate disabled" type="submit">Alternate</button>
+                </div>
+            </div>
+        </div>   
 
     </body>
 </html>
