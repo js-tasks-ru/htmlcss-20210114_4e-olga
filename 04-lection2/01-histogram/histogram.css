@@ -1,0 +1,51 @@
+* {
+    font-family: Inter, sans-serif; 
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.histogram-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    width: 354px;
+    height: 185px;
+    padding: 16px 24px 24px 24px;
+    box-sizing: border-box;
+}
+
+.title-text {
+    display: inline; 
+}
+
+.title-ref {
+    float:right;
+    text-decoration: none;
+    color: #4263EB;
+}
+
+.title-ref:hover {
+    color: #7048E8;
+}
+
+.title-number {
+    margin-top: 6px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.histogram {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.histogram__bar {
+    background-color: #4263EB;
+    flex-grow: 1;
+    margin-right: 1px;
+}
