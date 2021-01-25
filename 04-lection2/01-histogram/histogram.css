@@ -24,7 +24,7 @@
 .title-ref {
     float:right;
     text-decoration: none;
-    color: #4263EB;
+    color: var(--primary-color, #4263EB);
 }
 
 .title-ref:hover {
@@ -45,7 +45,7 @@
 }
 
 .histogram__bar {
-    background-color: #4263EB;
+    background-color: var(--primary-color, #4263EB);
     flex-grow: 1;
     margin-right: 1px;
 }
