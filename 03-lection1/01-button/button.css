@@ -1,97 +1,43 @@
 /* Стилизация кнопки */
-.page{
-    background-color:#ffffff;
-    padding-top: 140px;        
-}
-
-.content{
-    display: flex;
-    padding-left:165px;
-    padding-right: 165px;
-    height: 204px;
-}
-
-.content__title-box{
-    width: 30%;    
-}
-
-.content__title{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 46px;
-    color: #212429;
-}
-
-.content__buttons-box{
-    width: 70%;
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.buttons-box-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.row__title{
-    flex-basis: 70px; 
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #ACB5BD;
-}
 
 .button{
-    height: 48px;
+    padding: 15px 20px 15px 20px;
     width: 189px;
     border-radius: 8px;
     cursor: pointer;
 }
 
-.primary{
-    color:#ffffff;
-    background: #4263EB;
+.button_primary{
+    color: var(--main,#ffffff);
+    background: var(--primary, #4263EB) ;
+    border: 0px;   
+}
+
+.button_primary_hover, .button_primary:hover{
+    background: var(--primary-deeper, #2342C0);
+}
+
+.button_secondary{
+    background: var(--secondary, #7048E8);
     border: 0px;
-    
+    color: var(--main,#ffffff);
 }
 
-.primary_hover, .primary:hover{
-    background: #2342C0;
+.button_secondary_hover, .button_secondary:hover{
+    background: var(--secondary-deeper,#5028C6);
 }
 
-.secondary{
-    background: #7048E8;
-    border: 0px;
-    color:#ffffff;
+.button_alternate{
+    border: 1px solid var(--main-contrast-max-2, #ACB5BD);
+    background: var(--main,#ffffff);
 }
 
-.secondary_hover, .secondary:hover{
-    background:#5028C6;
+.button_alternate_hover, .button_alternate:hover{
+    border: 1px solid var(--main-contrast-max, #212429);
 }
 
-.alternate{
-    border: 1px solid #ACB5BD;
-    background: #fff;
-}
-
-.alternate_hover, .alternate:hover{
-    border: 1px solid #212429;
-}
-.disabled{
+.button:disabled{
     opacity: 0.5;
     cursor: not-allowed;
+    pointer-events: none;
 }
