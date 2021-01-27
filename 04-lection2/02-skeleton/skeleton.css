@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.title {
+.skeleton__header{
     display: flex;
     margin-bottom: 24px
 }

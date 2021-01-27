@@ -1,47 +1,52 @@
-* {
-    font-family: Inter, sans-serif; 
-    font-weight: normal;
+/* Стилизация гистограммы */
+
+.histogram{
+    display: flex;
+    width: 354px;
+    height: 185px;
+    justify-content: space-between;
+    border: 1px solid var(--main-contrast-max-2, #ACB5BD);
+    border-radius: 8px;
+    padding: 16px 24px 24px 24px;
+    box-sizing: border-box;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.histogram__title{
+    width: 50%;
     font-size: 16px;
     line-height: 24px;
 }
 
-.histogram-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid var(--main-contrast-max-2, #ACB5BD);
-    border-radius: 8px;
-    width: 354px;
-    height: 185px;
-    padding: 16px 24px 24px 24px;
-    box-sizing: border-box;
-}
-
-.title-text {
-    display: inline; 
-}
-
-.title-ref {
-    float:right;
+.histogram__ref {
+    width: 50%;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
     text-decoration: none;
     color: var(--primary, #4263EB);
 }
 
-.title-ref:hover {
+.histogram__ref:hover {
     color: var(--primary-deeper, #2342C0);
 }
 
-.title-number {
+.histogram__total {
+    width: 100%;
     margin-top: 6px;
+    margin-bottom: 39px;
     font-size: 20px;
     line-height: 26px;
 }
 
-.histogram {
+.histogram__bar-box{
     display: flex;
     height: 50px;
     width: 100%;
     align-items: flex-end;
+    justify-content: space-between;
+
 }
 
 .histogram__bar {
