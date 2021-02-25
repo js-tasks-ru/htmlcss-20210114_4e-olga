@@ -1,0 +1,36 @@
+.skeleton{
+    height: 192px;
+    width: 579px;
+    border: 1px var(--main-contrast-2, #ACB5BD) solid;
+    border-radius: 8px;
+    padding: 24px 40px 24px 24px;
+    box-sizing: border-box;
+}
+
+.skeleton__header{
+    display: flex;
+    margin-bottom: 24px
+}
+
+.skeleton__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;    
+}
+
+.skeleton__logo {
+    flex: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--main-contrast-max-3, #DDE2E5);
+    margin-right: 16px;
+}
+
+.skeleton__text {
+    height: 20px;
+    background: linear-gradient(92.51deg, var(--main-contrast-max-3, #DDE2E5) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    margin-bottom: 8px;
+}

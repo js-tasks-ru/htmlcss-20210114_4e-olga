@@ -1,0 +1,23 @@
+.page{
+    background-color:#ffffff;
+    padding-top: 140px;        
+}
+
+.content{
+    display: flex;
+    padding-left:165px;
+    padding-right: 165px;
+}
+
+.content__title-box{
+    width: 30%;    
+}
+
+.content__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    color: #212429;
+}

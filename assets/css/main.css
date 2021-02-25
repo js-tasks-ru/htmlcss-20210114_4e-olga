@@ -1,5 +1,95 @@
 @import '../fonts/fonts.css';
 
+:root {
+    --main: #fff;
+    --main-contrast-max:#212429;
+    --main-contrast-max-1: #495057;
+    --main-contrast-max-2: #ACB5BD;
+    --main-contrast-max-3: #DDE2E5;
+    --main-contrast-min: #F8F9FA;
+    --primary: #4263EB;
+    --primary-deeper: #2342C0;
+    --secondary: #7048E8;
+    --secondary-deeper:#5028C6;
+    --tertiary: #F784AD;
+    
+    --main-arrow-icon: url("/assets/images/open.png");
+}
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: Inter, sans-serif; 
+    color: var(--main-contrast-max, #212429);
+}
+
+.page{
+    background-color: var(--main, #fff);
+}
+
+.page__header{
+    padding-top: 24px;
+    padding-left: 160px;
+    background-color: var(--main-contrast-min, #f8f9fa) ;
+    height: 200px;
+}
+
+.header__title {
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.page__delimetr {
+    margin: 0;
+    height: 1px;
+    border: 0;
+    background-color: var(--main-contrast-max-3, #DDE2E5);
+}
+
+.page__content{
+    padding: 68px 165px 204px 165px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content__box{
+    display: flex;
+    margin: -15px;
+    flex-wrap: wrap;
+}
+
+.content__card {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+    height: 367px;
+    margin: 15px;
+    background: var(--main, #fff);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.card__title{
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.page__footer{
+    padding: 71px 400px 56px 400px;
+    height: 383px;
+    text-align:center;
+}
+
+.footer__title{
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.footer__text{
+    font-size: 16px;
+    line-height: 24px;
 }
